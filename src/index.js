@@ -457,7 +457,7 @@ const initialize = async () => {
     try {
       // const msg = 'Sample message to hash for signature'
       // const msgHash = keccak256(msg)
-      const msg = '0x879a053d4800c6354e76c7985a865d2922c82fb5b3f4577b2fe08b998954f2e0'
+      const msg = '0xae7b03330000000000000000000000002552710335f8edbde69e75ddb2dfa90441c2caa200000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000004e20'
       const ethResult = await ethereum.request({
         method: 'eth_sign',
         params: [accounts[0], msg],
